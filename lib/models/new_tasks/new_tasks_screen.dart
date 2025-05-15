@@ -1,9 +1,20 @@
 import 'package:flutter/material.dart';
+import '../../shared/components/components.dart';
+import '../../shared/components/constants.dart';
+
 class NewTasksScreen extends StatelessWidget {
-  const NewTasksScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text("1"));
+
+    return ListView.separated(
+      itemBuilder: (context,index)=>taskView(tasks[index]),
+      separatorBuilder:  (context,index)=>Container(
+        width: double.infinity,
+        height: 1,
+        color: Colors.grey[300],
+      ),
+      itemCount: tasks.length,
+    );
   }
 }
