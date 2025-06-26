@@ -5,6 +5,9 @@ A simple Todo app
 Using sqfilte for local storage and Bloc(Cubit) for state management
 
 screenshots-----------
+
+
+
 ![photo_2025-06-26_14-39-57](https://github.com/user-attachments/assets/6a127781-f8cb-4e41-8d65-01b937d1ebe1)
 ![photo_2025-06-26_14-39-58](https://github.com/user-attachments/assets/c2159d2e-a29e-4101-acd9-a4eb037f664e)
 ![photo_2025-06-26_14-39-59](https://github.com/user-attachments/assets/6096e92e-26ba-47f9-9349-3ac2bb8146ad)
